@@ -13,9 +13,10 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split("\n").reject { |f| f =~ /(test|jpg)/ }
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.license       = 'MIT'
   s.require_paths = ['lib']
+  s.required_ruby_version  = '>= 1.9.3'
 
-  s.add_dependency 'json'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'webmock'
 end
