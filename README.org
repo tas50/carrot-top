@@ -1,4 +1,4 @@
-[[https://secure.travis-ci.org/portertech/carrot-top.png]]
+[[https://travis-ci.org/portertech/carrot-top][https://secure.travis-ci.org/portertech/carrot-top.png]]
 
 * Install
 
@@ -7,7 +7,7 @@
 * Usage
 
   : require "carrot-top"
-  : 
+  :
   : carrot_top = CarrotTop.new(
   :   :host => "localhost",
   :   :port => 55672,
